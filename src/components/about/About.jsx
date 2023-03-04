@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-img">
-            <img src={ME} alt="About image" />
+            <img src={ME} alt="About" />
           </div>
         </div>
           <div className="about__content">
@@ -34,16 +34,14 @@ const About = () => {
               <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Projects</h5>
-                <small>80+ Completed</small>
+                <small>5+ Completed</small>
               </article>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              assumenda totam, voluptatum quos neque ullam perspiciatis. Nostrum
-              labore impedit atque suscipit. Deleniti totam quisquam dolorem
-              voluptates pariatur ea reiciendis impedit.
+              Hi! I am Dominion Ikpeawujor, a passionate Full-Stack Developer interested in building innovative solutions that solve problems effectively. 
+              I want to solve issues in the most effective ways possible. Let's talks
             </p>
-            <a href="#contact" className="btn btn-primary">Let's Talk</a>
+            <a href="mailto:dominionikpeawujor@gmail.com" className="btn btn-primary">Let's Talk</a>
           </div>
       </div>
     </section>
